@@ -61,12 +61,18 @@ console.log(`The average salary of our ${employeesArray.length} employees is ${a
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
 
+  //Check if array is empty
+if (employeesArray.length === 0) {
+  console.log("No employees to select from.");
+  return;
+}
 //Getting random index from array of options
 const randomIndex = Math.floor(Math.random() * employeesArray.length);
 const randomEmployee = employeesArray[randomIndex];
 
 //Show random employee statment in the console
-console.log(`Congrats to employee ${randomEmployee?.firstName} ${randomEmployee?.lastName} for winning our random drawing`);
+
+console.log(`Congrats to employee ${randomEmployee.firstName} ${randomEmployee.lastName} for winning our random drawing`);
 }
 
 
