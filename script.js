@@ -46,6 +46,11 @@ return employees;
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {
 //Calculate the total salary
+if (employeesArray.length === 0) {
+  console.log("There are no employees so the average is 0");
+  return;
+}
+
 let totalSalary = 0;
 for (const employee of employeesArray) {
 totalSalary += employee.salary;
