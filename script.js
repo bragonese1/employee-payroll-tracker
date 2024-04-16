@@ -66,7 +66,7 @@ const randomIndex = Math.floor(Math.random() * employeesArray.length);
 const randomEmployee = employeesArray[randomIndex];
 
 //Show random employee statment in the console
-console.log(`Congrats to employee ${randomEmployee.firstName} ${randomEmployee.lastName} for winning our random drawing`);
+console.log(`Congrats to employee ${randomEmployee?.firstName} ${randomEmployee?.lastName} for winning our random drawing`);
 }
 
 
