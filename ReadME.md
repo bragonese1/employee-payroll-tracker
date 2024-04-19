@@ -6,8 +6,8 @@ The employee payroll tracker was modified to enable a manager to view and manage
 
 ## Links
 
-- 
-- 
+- https://github.com/bragonese1/employee-payroll-tracker
+- https://bragonese1.github.io/employee-payroll-tracker/
 
 ## Installation
 
@@ -20,3 +20,8 @@ When "Add Employees" button is clicked the user will then be prompted to add the
 
 
 ## Screenshot of Portfolio Page
+![Alt text](./Images/employee-tracker.png)
+![Alt text](./Images/employee-tracker-popup.png)
+![Alt text](./Images/employee-tracker-console.png)
+
+
