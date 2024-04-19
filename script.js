@@ -17,7 +17,13 @@ const collectEmployees = function() {
 //Prompt user for last name and salary
     const lastName = window.prompt(`Enter last name of the employee:`);
 //Use parsefloat to convert string to float point number which helps with average calculation
-    const salary = parseFloat(prompt(`Enter the salary of the employee:`));
+    const salary = Number(window.prompt(`Enter the salary of the employee:`));
+
+// if salary entered is not a number, respond with invalid salary entered.
+    if (isNaN(salary)) {
+      console.log("Invalid salary entered.");
+      continue;
+    }
 
 //Create variable with all the data that was collected with the imputs
     const employee = {
